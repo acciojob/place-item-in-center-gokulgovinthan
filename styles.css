@@ -1,2 +1,19 @@
+/* Apply CSS Reset to remove default margin and padding */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 
-/* Your CSS Code here. */
+/* Create a Flexbox container to hold the items */
+.holder {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  height: 100%; /* Make the container take the full height of the viewport */
+}
+
+/* Apply styles to item-1 */
+.item-1 {
+  /* Add any specific styles for item-1 */
+}
